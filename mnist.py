@@ -11,7 +11,7 @@ from define import MNISTNet
 # 超参数设置
 BATCH_SIZE = 64
 EPOCHS = 10
-LEARNING_RATE = 0.001
+LEARNING_RATE = 0.01
 DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 def load_data():
